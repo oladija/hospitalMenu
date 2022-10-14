@@ -91,28 +91,27 @@ int main()
             printf("Would you like to save your entry before you exit? Y/N: \n");
             scanf("%c", &q);
         
-            if (q == 'Y' || q == 'y')
-            {
+            if (q == 'Y' || q == 'y'){
                 printf("Saving......");
-            }
-            else if (q == 'N' || q == 'n')
-            {
+                }
+                else if (q == 'N' || q == 'n')
+                {
                 printf("Please exit the main option\n");
-            }
-            else
-            {
-                printf("You have entered a wrong input");       
-            }
-        }
-        break;
+                    }
+                    else
+                    {
+                    printf("You have entered a wrong input");}       
+            
+                        }
+                        break;
 
-        default:
-        {
-            printf("You have entered a wrong input");
-        }
+                            default:
+                                {
+                                printf("You have entered a wrong input");
+                                }
     
 
-    }
+                                }
     
     
     getchar();
